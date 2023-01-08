@@ -1,1 +1,144 @@
-<h1>hola</h1>
+<!DOCTYPE html>
+<html lang="es-ES" dir="ltr">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+
+	<script>
+		const checkpoint = 350;
+		window.addEventListener("scroll", () => {
+			const currentScroll = window.pageYOffset;
+			if (currentScroll <= checkpoint) {
+				opacity = 1 - currentScroll / checkpoint;
+			} else {
+				opacity = 0;
+			}
+			document.querySelector(".front").style.opacity = opacity;
+		});
+
+		/*window.addEventListener("scroll", () => {
+			const currentScroll = window.pageYOffset;
+			const blurry = document.querySelector('.front');
+			if (currentScroll <= checkpoint) {
+				opacity = 1 - currentScroll / checkpoint;
+			} else {
+				opacity = 0;
+			}
+			blurry.style.opacity = opacity;
+		});*/
+	</script>
+
+	<style>
+		body {
+			background: #ffffff;
+			font-family: 'Quicksand', sans-serif;
+			color: #f5955c;
+			font-weight: 400;
+		}
+
+		svg#Capa_1 {
+			height: 6em;
+			width: 6em;
+			display: initial;
+		}
+
+		.main-cointainer {
+			width: 70%;
+			margin: auto;
+			margin-top: 0em;
+		}
+
+		div.order-container {
+			margin-top: 3em;
+			margin-bottom: 1em;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+
+		a.uber-order {
+			background: black;
+			text-decoration: none;
+			color: white;
+			padding: 1em;
+			margin: 1em;
+		}
+
+		a.rappi-order {
+			background: #fa4420;
+			text-decoration: none;
+			color: #ffffff;
+			padding: 1em;
+			margin: 1em;
+		}
+
+		.header {
+			width: calc(100% + 1.5em);
+			margin: -1em;
+			padding-top: 2em;
+			padding-bottom: 1em;
+			background: #d9d9d973;
+			text-align: center;
+		}
+
+		p.main-text {
+			margin: 1em;
+			font-size: 1.2em;
+			text-align: justify;
+		}
+
+		h1 {
+			color: #dd297d;
+			font-size: 1.5em;
+		}
+
+		img.recipe-img {
+			height: 15em;
+			padding: 0.2em;
+			border: 2px solid #ed2750;
+			border-radius: 4px;
+			margin-top: 1em;
+			margin-bottom: 1em;
+		}
+
+		img.banner {
+			min-width: 10em;
+			max-width: 18%;
+		}
+	</style>
+</head>
+<body>
+	<div class="header front"><img class="banner" src="https://drive.google.com/uc?id=18a5Y5W7om9yNu46tzTvgMmpX2tvd5pOX"/></div><br>
+	<div class="main-cointainer">
+		<p class="main-text">
+			Nuestro objetivo es acercar y ofrecer recetas tradicionales e innovadoras, con miras a un alimento que nutra el alma, que nos recuerde el calor del hogar y nos lleve a lugares entrañables...<br><br>
+
+			<h1>Nuestros tamales:</h1>
+
+			<ul>
+				<li>Dzotobichay (del maya Ts'o Tobil Chay)</li>
+				<img class="recipe-img" src="https://drive.google.com/uc?id=1WEqtLmZSlsgTqmCZnd8RJD9t9sKwSvYX"/>
+				<li>Pibipollo</li>
+				<img class="recipe-img" src="https://drive.google.com/uc?id=1pXN3rMMKEposaKmsh0RFOpaPt2VQScIe"/>
+				<li>Frijol con queso</li>
+				<img class="recipe-img" src="https://drive.google.com/uc?id=18yJkwAXPIDKRu4-HVfahKEdH-QfLDRvA"/>
+				<li>Naranja con zanahoria</li>
+				<img class="recipe-img" src="https://drive.google.com/uc?id=1IB1HCr5NWNG2OYChxIFhmcuESMgB-lVB"/>
+			</ul>
+
+			<h1>Nuestros Atoles:</h1>
+
+			<ul>
+				<li>De elote</li>
+				<img class="recipe-img" src="https://drive.google.com/uc?id=1h3Rxl_qwM-Nc-S1l2wrMWVC4O3oVRqCf"/>
+				<li>De cacahuate</li>
+				<img class="recipe-img" src="https://drive.google.com/uc?id=1b5v4_X7iGMrXk6Hq6SHxrEaz50kSi9Mt"/>
+			</ul>
+		</p>
+
+		<div class="order-container"><a class="uber-order" href="https://www.order.store/store/poch-tamal/WU_XOM6CVZKP0esu6RluKw" rel="noopener noreferrer" target="_blank">Ordenar en uber</a><a class="rappi-order" href="https://www.rappi.com.mx/restaurantes/1930051289-poch-tamal" rel="noopener noreferrer" target="_blank">Ordenar en Rappi</a></div>
+	</div>
+</body>
+</html>
