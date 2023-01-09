@@ -133,3 +133,8 @@ a.rappi-order {
 	padding: 1em;
 	margin: 1em;
 }
+
+.footer {
+	height: 10em;
+	background: red;
+}
