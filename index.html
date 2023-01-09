@@ -38,18 +38,17 @@
 
 		ul.nav-bar li.right {float: right;}
 
+		[class*="col-"] {
+			width: 100%;
+			float: left;
+		}
+
 		@media screen and (max-width: 599px) {
 			ul.nav-bar li.right,
 			ul.nav-bar li {float: none;}
 			div.bar-holder {width: 100%; background: transparent; height: 0; margin-left: 0; margin-top: 0;}
 			ul.nav-bar li {border-bottom: 1px solid hsl(0deg 0% 96%); background: hsl(0deg 0% 88%);}
 			ul.nav-bar li a:hover {background-color: #eeeeee;}
-			img.recipe-img {max-width: 17em; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
-		}
-
-		[class*="col-"] {
-			width: 100%;
-			float: left;
 		}
 
 		@media only screen and (min-width: 600px) {
@@ -68,6 +67,13 @@
 			ul.nav-bar {position: fixed;}
 			div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 			ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+		}
+
+		@media screen and (max-width: 669px) {
+			img.recipe-img {max-width: 17em; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
+		}
+
+		@media only screen and (min-width: 670px) {
 			img.recipe-img {max-width: 20em; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
 		}
 
@@ -87,7 +93,6 @@
 			ul.nav-bar {position: fixed;}
 			div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 			ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
-			img.recipe-img {max-width: 20em; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
 		}
 
 		.row::after {
@@ -162,7 +167,7 @@
 		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1h3Rxl_qwM-Nc-S1l2wrMWVC4O3oVRqCf"/></div>
 		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1b5v4_X7iGMrXk6Hq6SHxrEaz50kSi9Mt"/></div>
 	</div>
-<div class="bar-holder" id="ordenar"></div>
+	<div class="bar-holder" id="ordenar"></div>
 	<div class="row">
 		<div class="col-12 col-s-12"><div class="order-container"><a class="uber-order" href="https://www.order.store/store/poch-tamal/WU_XOM6CVZKP0esu6RluKw" rel="noopener noreferrer" target="_blank">Ordena en uber</a><a class="rappi-order" href="https://www.rappi.com.mx/restaurantes/1930051289-poch-tamal" rel="noopener noreferrer" target="_blank">Ordena en Rappi</a></div></div>
 	</div>
