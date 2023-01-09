@@ -135,6 +135,11 @@ a.rappi-order {
 }
 
 .footer {
-	height: 10em;
-	background: red;
+    height: 5em;
+    display: flex;
+    background: #dd287d;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
 }
