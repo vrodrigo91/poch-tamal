@@ -2,69 +2,113 @@
 <html lang="es-ES" dir="ltr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
-
-	<!--script>
-		const checkpoint = 350;
-		window.addEventListener("scroll", () => {
-			const currentScroll = window.pageYOffset;
-			if (currentScroll <= checkpoint) {
-				opacity = 1 - currentScroll / checkpoint;
-			} else {
-				opacity = 0;
-			}
-			document.querySelector(".front").style.opacity = opacity;
-		});
-	</script-->
-
+	
 	<style>
 		body {
 			background: #ffffff;
 			font-family: 'Quicksand', sans-serif;
 			color: #f5955c;
 			font-weight: 400;
-		}
-		
-		div.nav-bar {
-			display: flex;
-			width: calc(100% + 1.5em);
-			position: fixed;
-			background: hsl(0deg 0% 100%);
-			height: 3em;
-			left: 0em;
-			top: 0em;
-			flex-direction: row;
-			justify-content: space-around;
-			align-items: center;
-			border-bottom: 1px solid #cdcdcd;
+			margin: 0;
 		}
 
-		div.section-bar {
-			width: calc(100% + 1.5em);
-			background: transparent;
-			height: 3em;
-			margin-left: 0em;
-			margin-top: -1em;
+		ul.nav-bar {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #ffffff;
 		}
 
-		div.nav-bar a {
+		ul.nav-bar li {float: left;}
+
+		ul.nav-bar li a {
+			display: block;
+			color: #dd297d;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
 			font-family: 'Montserrat', sans-serif;
 			text-decoration: none;
-			color: #dd2a7d;
 			font-weight: 700;
 		}
 
-		svg#Capa_1 {
-			height: 6em;
-			width: 6em;
-			display: initial;
+		ul.nav-bar li a:hover:not(.active) {background-color: #eeeeee;}
+
+		ul.nav-bar li.right {float: right;}
+
+		@media screen and (max-width: 599px) {
+			ul.nav-bar li.right,
+			ul.nav-bar li {float: none;}
+			div.bar-holder {display: none;}
 		}
 
-		.main-cointainer {
-			width: 70%;
-			margin: auto;
-			margin-top: 0em;
+		[class*="col-"] {
+			width: 100%;
+			float: left;
+		}
+
+		@media only screen and (min-width: 600px) {
+			.col-s-1 {width: 8.33%;}
+			.col-s-2 {width: 16.66%;}
+			.col-s-3 {width: 25%;}
+			.col-s-4 {width: 33.33%;}
+			.col-s-5 {width: 41.66%;}
+			.col-s-6 {width: 50%;}
+			.col-s-7 {width: 58.33%;}
+			.col-s-8 {width: 66.66%;}
+			.col-s-9 {width: 75%;}
+			.col-s-10 {width: 83.33%;}
+			.col-s-11 {width: 91.66%;}
+			.col-s-12 {width: 100%;}
+			ul.nav-bar {position: fixed;}
+			div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
+			ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+		}
+
+		@media only screen and (min-width: 768px) {
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+			ul.nav-bar {position: fixed;}
+			div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
+			ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+		}
+
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		h1 {
+			color: #dd297d;
+			font-size: 1.5em;
+		}
+
+		div.img-cell {
+			text-align: center;
+		}
+
+		img.recipe-img {
+			max-width: 20em;
+			padding: 0.2em;
+			border: 2px solid #ed2750;
+			border-radius: 4px;
+			margin-top: 1em;
+			margin-bottom: 1em;
 		}
 
 		div.order-container {
@@ -91,78 +135,42 @@
 			padding: 1em;
 			margin: 1em;
 		}
-
-		div.header {
-			width: calc(100% + 1.5em);
-			margin: -1em;
-			padding-top: 5em;
-			padding-bottom: 4em;
-			background: #dd297d;
-			text-align: center;
-		}
-
-		p.main-text {
-			margin: 1em;
-			font-size: 1.2em;
-			text-align: justify;
-		}
-
-		h1 {
-			color: #dd297d;
-			font-size: 1.5em;
-		}
-
-		img.recipe-img {
-			height: 15em;
-			padding: 0.2em;
-			border: 2px solid #ed2750;
-			border-radius: 4px;
-			margin-top: 1em;
-			margin-bottom: 1em;
-		}
-
-		img.banner {
-			min-width: 10em;
-			max-width: 18%;
-		}
 	</style>
 </head>
 <body>
-	<div class="nav-bar"><a href="#somos">QUIÉNES SOMOS</a><a href="#tamales">NUESTROS TAMALES</a><a href="#atoles">NUESTROS ATOLES</a><a href="#ordenar">ORDENAR AHORA</a></div>
-	<div class="header front"><img class="banner" src="https://drive.google.com/uc?id=18a5Y5W7om9yNu46tzTvgMmpX2tvd5pOX"/></div><br>
-	<div class="main-cointainer">
-		<p class="main-text">
+	<ul class="nav-bar">
+		<li><a href="#somos">SOBRE NOSOTROS</a></li>
+		<li><a href="#tamales">TAMALES</a></li>
+		<li><a href="#atoles">ATOLES</a></li>
+		<li><a href="#ordenar">ORDENA AHORA</a></li>
+	</ul>
 
-			<div id="somos" class="section-bar"></div>
-			<p>Nuestro objetivo es acercar y ofrecer recetas tradicionales e innovadoras, con miras a un alimento que nutra el alma, que nos recuerde el calor del hogar y nos lleve a lugares entrañables...</p><br><br>
+	<div class="bar-holder"></div>
 
-			<div id="tamales" class="section-bar"></div>
-			<h1>Nuestros tamales:</h1>
-
-			<ul>
-				<li>Dzotobichay (del maya Ts'o Tobil Chay)</li>
-				<img class="recipe-img" src="https://drive.google.com/uc?id=1WEqtLmZSlsgTqmCZnd8RJD9t9sKwSvYX"/>
-				<li>Pibipollo</li>
-				<img class="recipe-img" src="https://drive.google.com/uc?id=1pXN3rMMKEposaKmsh0RFOpaPt2VQScIe"/>
-				<li>Frijol con queso</li>
-				<img class="recipe-img" src="https://drive.google.com/uc?id=18yJkwAXPIDKRu4-HVfahKEdH-QfLDRvA"/>
-				<li>Naranja con zanahoria</li>
-				<img class="recipe-img" src="https://drive.google.com/uc?id=1IB1HCr5NWNG2OYChxIFhmcuESMgB-lVB"/>
-			</ul>
-
-			<div id="atoles" class="section-bar"></div>
-			<h1>Nuestros Atoles:</h1>
-
-			<ul>
-				<li>De elote</li>
-				<img class="recipe-img" src="https://drive.google.com/uc?id=1h3Rxl_qwM-Nc-S1l2wrMWVC4O3oVRqCf"/>
-				<li>De cacahuate</li>
-				<img class="recipe-img" src="https://drive.google.com/uc?id=1b5v4_X7iGMrXk6Hq6SHxrEaz50kSi9Mt"/>
-			</ul>
-		</p>
-
-		<div id="ordenar" class="section-bar"></div>
-		<div class="order-container"><a class="uber-order" href="https://www.order.store/store/poch-tamal/WU_XOM6CVZKP0esu6RluKw" rel="noopener noreferrer" target="_blank">Ordenar en uber</a><a class="rappi-order" href="https://www.rappi.com.mx/restaurantes/1930051289-poch-tamal" rel="noopener noreferrer" target="_blank">Ordenar en Rappi</a></div>
+	<div class="bar-holder" id="somos"></div>
+	<div class="row"><h1>Sobre nosotros:</h1></div>
+	<div class="row">
+		<div class="col-12 col-s-12"><p>Nuestro objetivo es acercar y ofrecer recetas tradicionales e innovadoras, con miras a un alimento que nutra el alma, que nos recuerde el calor del hogar y nos lleve a lugares entrañables...</p></div>
+	</div>
+	<div class="bar-holder" id="tamales"></div>
+	<div class="row"><h1>Nuestros tamales:</h1></div>
+	<div class="row">
+		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1WEqtLmZSlsgTqmCZnd8RJD9t9sKwSvYX"/></div>
+		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1pXN3rMMKEposaKmsh0RFOpaPt2VQScIe"/></div>
+	</div>
+	<div class="row">
+		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=18yJkwAXPIDKRu4-HVfahKEdH-QfLDRvA"/></div>
+		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1IB1HCr5NWNG2OYChxIFhmcuESMgB-lVB"/></div>
+	</div>
+	<div class="bar-holder" id="atoles"></div>
+	<div class="row"><h1>Nuestros atoles:</h1></div>
+	<div class="row">
+		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1h3Rxl_qwM-Nc-S1l2wrMWVC4O3oVRqCf"/></div>
+		<div class="col-6 col-s-6 img-cell"><img class="recipe-img" src="https://drive.google.com/uc?id=1b5v4_X7iGMrXk6Hq6SHxrEaz50kSi9Mt"/></div>
+	</div>
+<div class="bar-holder" id="ordenar"></div>
+	<div class="row">
+		<div class="col-12 col-s-12"><div class="order-container"><a class="uber-order" href="https://www.order.store/store/poch-tamal/WU_XOM6CVZKP0esu6RluKw" rel="noopener noreferrer" target="_blank">Ordenar en uber</a><a class="rappi-order" href="https://www.rappi.com.mx/restaurantes/1930051289-poch-tamal" rel="noopener noreferrer" target="_blank">Ordenar en Rappi</a></div></div>
 	</div>
 </body>
 </html>
