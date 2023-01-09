@@ -3,11 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Erica+One&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
 
-	<script>
+	<!--script>
 		const checkpoint = 350;
 		window.addEventListener("scroll", () => {
 			const currentScroll = window.pageYOffset;
@@ -18,18 +16,7 @@
 			}
 			document.querySelector(".front").style.opacity = opacity;
 		});
-
-		/*window.addEventListener("scroll", () => {
-			const currentScroll = window.pageYOffset;
-			const blurry = document.querySelector('.front');
-			if (currentScroll <= checkpoint) {
-				opacity = 1 - currentScroll / checkpoint;
-			} else {
-				opacity = 0;
-			}
-			blurry.style.opacity = opacity;
-		});*/
-	</script>
+	</script-->
 
 	<style>
 		body {
@@ -39,9 +26,33 @@
 			font-weight: 400;
 		}
 		
-		.nav-bar {
+		div.nav-bar {
+			display: flex;
 			width: calc(100% + 1.5em);
 			position: fixed;
+			background: hsl(0deg 0% 100%);
+			height: 3em;
+			left: 0em;
+			top: 0em;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			border-bottom: 1px solid #cdcdcd;
+		}
+
+		div.section-bar {
+			width: calc(100% + 1.5em);
+			background: transparent;
+			height: 3em;
+			margin-left: 0em;
+			margin-top: -1em;
+		}
+
+		div.nav-bar a {
+			font-family: 'Montserrat', sans-serif;
+			text-decoration: none;
+			color: #dd2a7d;
+			font-weight: 700;
 		}
 
 		svg#Capa_1 {
@@ -81,12 +92,12 @@
 			margin: 1em;
 		}
 
-		.header {
+		div.header {
 			width: calc(100% + 1.5em);
 			margin: -1em;
-			padding-top: 2em;
-			padding-bottom: 1em;
-			background: #d9d9d973;
+			padding-top: 5em;
+			padding-bottom: 4em;
+			background: #dd297d;
 			text-align: center;
 		}
 
@@ -117,13 +128,16 @@
 	</style>
 </head>
 <body>
-	<div class="nav-bar"><a href="#somos">¿quienes somos?</a><a href="#tamales">nuestros tamales</a><a href="#atoles">nuestros atoles</a><a href="#ordenar">ordena ahora</a></div>
+	<div class="nav-bar"><a href="#somos">QUIÉNES SOMOS</a><a href="#tamales">NUESTROS TAMALES</a><a href="#atoles">NUESTROS ATOLES</a><a href="#ordenar">ORDENAR AHORA</a></div>
 	<div class="header front"><img class="banner" src="https://drive.google.com/uc?id=18a5Y5W7om9yNu46tzTvgMmpX2tvd5pOX"/></div><br>
 	<div class="main-cointainer">
 		<p class="main-text">
-			<p id="somos">Nuestro objetivo es acercar y ofrecer recetas tradicionales e innovadoras, con miras a un alimento que nutra el alma, que nos recuerde el calor del hogar y nos lleve a lugares entrañables...</p><br><br>
 
-			<h1 id="tamales">Nuestros tamales:</h1>
+			<div id="somos" class="section-bar"></div>
+			<p>Nuestro objetivo es acercar y ofrecer recetas tradicionales e innovadoras, con miras a un alimento que nutra el alma, que nos recuerde el calor del hogar y nos lleve a lugares entrañables...</p><br><br>
+
+			<div id="tamales" class="section-bar"></div>
+			<h1>Nuestros tamales:</h1>
 
 			<ul>
 				<li>Dzotobichay (del maya Ts'o Tobil Chay)</li>
@@ -136,7 +150,8 @@
 				<img class="recipe-img" src="https://drive.google.com/uc?id=1IB1HCr5NWNG2OYChxIFhmcuESMgB-lVB"/>
 			</ul>
 
-			<h1 id="atoles">Nuestros Atoles:</h1>
+			<div id="atoles" class="section-bar"></div>
+			<h1>Nuestros Atoles:</h1>
 
 			<ul>
 				<li>De elote</li>
@@ -146,7 +161,8 @@
 			</ul>
 		</p>
 
-		<div id="ordenar" class="order-container"><a class="uber-order" href="https://www.order.store/store/poch-tamal/WU_XOM6CVZKP0esu6RluKw" rel="noopener noreferrer" target="_blank">Ordenar en uber</a><a class="rappi-order" href="https://www.rappi.com.mx/restaurantes/1930051289-poch-tamal" rel="noopener noreferrer" target="_blank">Ordenar en Rappi</a></div>
+		<div id="ordenar" class="section-bar"></div>
+		<div class="order-container"><a class="uber-order" href="https://www.order.store/store/poch-tamal/WU_XOM6CVZKP0esu6RluKw" rel="noopener noreferrer" target="_blank">Ordenar en uber</a><a class="rappi-order" href="https://www.rappi.com.mx/restaurantes/1930051289-poch-tamal" rel="noopener noreferrer" target="_blank">Ordenar en Rappi</a></div>
 	</div>
 </body>
 </html>
