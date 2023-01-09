@@ -36,15 +36,14 @@
 			font-weight: 700;
 		}
 
-		ul.nav-bar li a:hover:not(.active) {background-color: #eeeeee;}
-
 		ul.nav-bar li.right {float: right;}
 
 		@media screen and (max-width: 599px) {
 			ul.nav-bar li.right,
 			ul.nav-bar li {float: none;}
-			div.bar-holder {display: none;}
-			ul.nav-bar li {border-bottom: 1px solid hsl(0deg 0% 88%); background: hsl(0deg 0% 96%);}
+			div.bar-holder {width: 100%; background: transparent; height: 0; margin-left: 0; margin-top: 0;}
+			ul.nav-bar li {border-bottom: 1px solid hsl(0deg 0% 96%); background: hsl(0deg 0% 88%);}
+			ul.nav-bar li a:hover {background-color: #eeeeee;}
 		}
 
 		[class*="col-"] {
@@ -68,6 +67,7 @@
 			ul.nav-bar {position: fixed;}
 			div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 			ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+			ul.nav-bar li a:hover {background-color: transparent;}
 		}
 
 		@media only screen and (min-width: 768px) {
@@ -86,6 +86,7 @@
 			ul.nav-bar {position: fixed;}
 			div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 			ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+			ul.nav-bar li a:hover {background-color: transparent;}
 		}
 
 		.row::after {
@@ -146,7 +147,7 @@
 		<li><a href="#ordenar">ORDENA AHORA</a></li>
 	</ul>
 
-	<div class="bar-holder"></div>
+	<!--div class="bar-holder"></div-->
 
 	<div class="bar-holder" id="somos"></div>
 	<div class="row"><h1>Sobre nosotros:</h1></div>
