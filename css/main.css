@@ -58,7 +58,16 @@ ul.nav-bar li.right {float: right;}
 	.col-s-12 {width: 100%;}
 	ul.nav-bar {position: fixed;}
 	div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
-	ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+	ul.nav-bar {
+		display: flex; 
+		flex-direction: row; 
+		flex-wrap: nowrap; 
+		justify-content: space-between; 
+		align-items: center; 
+		width: 100%; 
+		border-bottom: 1px solid #cdcdcd;
+		box-shadow: 0px -5px 5px 5px #00000096;
+	}
 }
 
 @media screen and (max-width: 669px) {
@@ -84,7 +93,16 @@ ul.nav-bar li.right {float: right;}
 	.col-12 {width: 100%;}
 	ul.nav-bar {position: fixed;}
 	div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
-	ul.nav-bar {display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; align-items: center; width: 100%; border-bottom: 1px solid #cdcdcd;}
+	ul.nav-bar {
+		display: flex; 
+		flex-direction: row; 
+		flex-wrap: nowrap; 
+		justify-content: space-between; 
+		align-items: center; 
+		width: 100%; 
+		border-bottom: 1px solid #cdcdcd;
+		box-shadow: 0px -5px 5px 5px #00000096;
+	}
 }
 
 .row::after {
