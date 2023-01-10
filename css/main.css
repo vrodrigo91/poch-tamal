@@ -70,6 +70,7 @@ ul.nav-bar li.right {float: right;}
 		border-bottom: 1px solid #cdcdcd;
 		box-shadow: 0px -5px 5px 5px #00000096;
 	}
+	ul.nav-bar li a:active {border: none;}
 }
 
 @media screen and (max-width: 669px) {
@@ -105,6 +106,7 @@ ul.nav-bar li.right {float: right;}
 		border-bottom: 1px solid #cdcdcd;
 		box-shadow: 0px -5px 5px 5px #00000096;
 	}
+	ul.nav-bar li a:active {border: none;}
 }
 
 .row::after {
