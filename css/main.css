@@ -25,8 +25,7 @@ ul.nav-bar li a {
     text-align: center;
     font-weight: 700;
     color: #dd297d;
-    background: white;
-    border-bottom: 1px solid #eeeeee;    
+    background: white;   
 }
 
 ul.nav-bar li.right {float: right;}
@@ -41,6 +40,7 @@ ul.nav-bar li.right {float: right;}
 	ul.nav-bar li {float: none;}
 	div.bar-holder {width: 100%; background: transparent; height: 0; margin-left: 0; margin-top: 0;}
 	ul.nav-bar li {/*border-bottom: 1px solid hsl(0deg 0% 96%);*/ background: hsl(0deg 0% 88%);}
+	ul.nav-bar li a {border-bottom: 1px solid #eeeeee;}
 	ul.nav-bar li a:active {background-color: #f1f1f1;}
 	img.recipe-img {max-width: 70% !important; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
 }
