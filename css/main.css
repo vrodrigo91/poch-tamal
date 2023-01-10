@@ -19,13 +19,14 @@ ul.nav-bar li {float: left;}
 
 ul.nav-bar li a {
 	display: block;
-	color: #dd297d;
-	text-align: center;
 	padding: 14px 16px;
-	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: #dd297d;
+    background: white;
+    border-bottom: 1px solid #eeeeee;    
 }
 
 ul.nav-bar li.right {float: right;}
