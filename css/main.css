@@ -1,9 +1,10 @@
 body {
-	background: #ffffff;
-	font-family: 'Nunito', sans-serif;
-	color: #f5955c;
-	font-weight: 400;
-	margin: 0;
+    background: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    color: #ce2b7d;
+    font-weight: 400;
+    font-size: 1.21em;
+    margin: 0;
 }
 
 ul.nav-bar {
