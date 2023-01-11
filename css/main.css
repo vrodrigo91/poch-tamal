@@ -169,24 +169,24 @@ a.rappi-order {
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
 	body {
-		background: #ffffff;
+		background: #232323;
 		color: #f5955c;
 	}
 
 	ul.nav-bar {
-		background-color: #ffffff;
+		background-color: #4b4b4b;
 		box-shadow: 0px -5px 5px 5px #00000096;
 	}
 
 	ul.nav-bar li a {
 		color: #dd297d;
-		background: white;   
+		background: #4b4b4b;   
 	}
 
 	@media screen and (max-width: 599px) {
 		div.bar-holder {background: transparent;}
 		ul.nav-bar li {background: hsl(0deg 0% 88%);}
-		ul.nav-bar li a {border-bottom: 1px solid #eeeeee;}
+		ul.nav-bar li a {border-bottom: 1px solid #4f4f4f;}
 		ul.nav-bar li a:active {background-color: #f1f1f1;}
 		img.recipe-img {border: 2px solid #ed2750;}
 	}
@@ -194,7 +194,7 @@ a.rappi-order {
 	@media only screen and (min-width: 600px) {
 		div.bar-holder {background: transparent;}
 		ul.nav-bar {
-			border-bottom: 1px solid #cdcdcd;
+			border-bottom: 1px solid #4f4f4f;
 			box-shadow: 0px -5px 5px 5px #00000096;
 		}
 		ul.nav-bar li a {border: none !important;}
@@ -211,7 +211,7 @@ a.rappi-order {
 	@media only screen and (min-width: 768px) {
 		div.bar-holder {background: transparent;}
 		ul.nav-bar {
-			border-bottom: 1px solid #cdcdcd;
+			border-bottom: 1px solid #4f4f4f;
 			box-shadow: 0px -5px 5px 5px #00000096;
 		}
 		ul.nav-bar li a {border: none !important;}
