@@ -60,7 +60,7 @@ ul.nav-bar li.right {float: right;}
 	#order-desktop {display: none;}
 	ul.nav-bar li:not(:first-child) {display: none;}
 	ul.nav-bar.show-menu li {display: list-item;}
-	#hamburguesa {width: 2em; height: 1em; background: blue;}
+	#hamburguesa {background: transparent; float: right; border: none;}
 }
 
 @media only screen and (min-width: 600px) {
