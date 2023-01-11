@@ -58,6 +58,8 @@ ul.nav-bar li.right {float: right;}
 	#mobile-logo {width: 100%; text-align: center;}
 	#order-mobile {display: block;}
 	#order-desktop {display: none;}
+	ul.nav-bar li:not(:first-child) {display: none;}
+	ul.nav-bar.show-menu li {display: list-item;}
 }
 
 @media only screen and (min-width: 600px) {
