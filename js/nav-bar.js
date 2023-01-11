@@ -12,3 +12,12 @@
       posEnd = posStart;
   });
 })();
+
+function myFunction() {
+  var x = document.getElementById("nv");
+  if (x.className === "nav-bar") {
+    x.className += " show-menu";
+  } else {
+    x.className = "nav-bar";
+  }
+}
