@@ -87,6 +87,8 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -3.1em, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
+	img.recipe-img.lft {margin-left: 20%;}
+	img.recipe-img.rgt {margin-right: 20%;}
 }
 
 @media screen and (max-width: 669px) {
@@ -126,6 +128,8 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -3.1em, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
+	img.recipe-img.lft {margin-left: 20%;}
+	img.recipe-img.rgt {margin-right: 20%;}
 }
 
 .row::after {
