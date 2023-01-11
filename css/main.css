@@ -194,7 +194,7 @@ a.rappi-order {
 	@media only screen and (min-width: 600px) {
 		div.bar-holder {background: transparent;}
 		ul.nav-bar {
-			border-bottom: 1px solid #4f4f4f;
+			border-bottom: 1px solid #4d4d4d;
 			box-shadow: 0px -5px 5px 5px #00000096;
 		}
 		ul.nav-bar li a {border: none !important;}
@@ -211,7 +211,7 @@ a.rappi-order {
 	@media only screen and (min-width: 768px) {
 		div.bar-holder {background: transparent;}
 		ul.nav-bar {
-			border-bottom: 1px solid #4f4f4f;
+			border-bottom: 1px solid #4d4d4d;
 			box-shadow: 0px -5px 5px 5px #00000096;
 		}
 		ul.nav-bar li a {border: none !important;}
