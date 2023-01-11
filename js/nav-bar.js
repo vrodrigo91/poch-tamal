@@ -1,6 +1,6 @@
 (function(){
     var box = $(document),
-        nav = $('.nav-bar'),
+        nav = $('nav'),
         posEnd = 0;
 
     box.on('scroll', function(){
