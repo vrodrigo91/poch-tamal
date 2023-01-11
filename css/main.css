@@ -16,6 +16,11 @@ ul.nav-bar {
 	transition: height 2s;
 }
 
+.hidey {
+	height: 0px !important;
+	background: red;
+}
+
 ul.nav-bar li {float: left;}
 
 ul.nav-bar li a {
