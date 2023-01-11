@@ -55,6 +55,7 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -18em, 0);}
 	#desktop-banner {display: none;}
 	#mobile-banner {width: 100%;}
+	#mobile-logo {width: 100%;}
 	#order-mobile {display: block;}
 	#order-desktop {display: none;}
 }
@@ -89,6 +90,7 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -3.6, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
+	#mobile-logo {display: none;}
 	#order-mobile {display: none;}
 	#order-desktop {display: block;}
 	img.recipe-img {max-width: 85%;}
@@ -140,6 +142,7 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -3.6em, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
+	#mobile-logo {display: none;}
 	#order-mobile {display: none;}
 	#order-desktop {display: block;}
 	img.recipe-img {max-width: 22em;}
