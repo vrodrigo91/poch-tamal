@@ -55,7 +55,7 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -18em, 0);}
 	#desktop-banner {display: none;}
 	#mobile-banner {width: 100%;}
-	#mobile-logo {width: 100%;}
+	#mobile-logo {width: 100%; text-align: center;}
 	#order-mobile {display: block;}
 	#order-desktop {display: none;}
 }
