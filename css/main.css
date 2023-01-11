@@ -9,7 +9,6 @@ ul.nav-bar {
 	padding: 0;
 	overflow: hidden;
 	background-color: #ffffff;
-	box-shadow: 0px -5px 5px 5px #00000096;
 	transition: 0.6s;
 }
 
@@ -73,9 +72,9 @@ ul.nav-bar li.right {float: right;}
 	.col-s-10 {width: 83.33%;}
 	.col-s-11 {width: 91.66%;}
 	.col-s-12 {width: 100%;}
-	ul.nav-bar {position: fixed;}
 	div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 	ul.nav-bar {
+		position: fixed;
 		display: flex; 
 		flex-direction: row; 
 		flex-wrap: nowrap; 
@@ -124,9 +123,9 @@ ul.nav-bar li.right {float: right;}
 	.col-10 {width: 83.33%;}
 	.col-11 {width: 91.66%;}
 	.col-12 {width: 100%;}
-	ul.nav-bar {position: fixed;}
 	div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 	ul.nav-bar {
+		position: fixed;
 		display: flex; 
 		flex-direction: row; 
 		flex-wrap: nowrap; 
