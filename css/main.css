@@ -174,13 +174,13 @@ a.rappi-order {
 	}
 
 	ul.nav-bar {
-		background-color: #4b4b4b;
+		background-color: #383838;
 		box-shadow: 0px -5px 5px 5px #00000096;
 	}
 
 	ul.nav-bar li a {
 		color: #dd297d;
-		background: #4b4b4b;   
+		background: #383838;   
 	}
 
 	@media screen and (max-width: 599px) {
