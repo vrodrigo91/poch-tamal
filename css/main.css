@@ -145,11 +145,11 @@ ul.nav-bar li.right {float: right;}
 }
 
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 900;
-	color: #ce2b7d;
-	font-size: 66pt;
-	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #ce2b7d;
+    font-size: 2em;
+    text-align: center;
 }
 
 div.img-cell {
