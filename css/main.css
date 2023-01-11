@@ -87,8 +87,8 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -3.1em, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
-	img.recipe-img.lft {margin-left: 20%;}
-	img.recipe-img.rgt {margin-right: 20%;}
+	img.recipe-img.lft {margin-left: 20%; background: red;}
+	img.recipe-img.rgt {margin-right: 20%; background: red;}
 }
 
 @media screen and (max-width: 669px) {
@@ -128,8 +128,8 @@ ul.nav-bar li.right {float: right;}
 	nav.hidden {transform: translate3d(0, -3.1em, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
-	img.recipe-img.lft {margin-left: 15%;}
-	img.recipe-img.rgt {margin-right: 15%;}
+	img.recipe-img.lft {margin-left: 5%;}
+	img.recipe-img.rgt {margin-right: 5%;}
 }
 
 @media only screen and (min-width: 890px) {
