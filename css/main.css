@@ -169,7 +169,7 @@ a.rappi-order {
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
 	body {
-		background: #232323;
+		background: #212121;
 		color: #f5955c;
 	}
 
