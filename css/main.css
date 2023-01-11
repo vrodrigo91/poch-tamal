@@ -13,6 +13,7 @@ ul.nav-bar {
 	overflow: hidden;
 	background-color: #ffffff;
 	box-shadow: 0px -5px 5px 5px #00000096;
+	transition: height 2s;
 }
 
 ul.nav-bar li {float: left;}
