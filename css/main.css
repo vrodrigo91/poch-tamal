@@ -96,7 +96,7 @@ ul.nav-bar li.right {float: right;}
 }
 
 @media only screen and (min-width: 670px) {
-	img.recipe-img {max-width: 10em;}
+	img.recipe-img {max-width: 22em;}
 }
 
 @media only screen and (min-width: 768px) {
