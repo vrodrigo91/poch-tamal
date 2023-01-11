@@ -85,7 +85,7 @@ ul.nav-bar li.right {float: right;}
 		box-shadow: 0px -5px 5px 5px #00000096;
 	}
 	ul.nav-bar li a {border: none !important;}
-	nav.hidden {transform: translate3d(0, -3.1em, 0);}
+	nav.hidden {transform: translate3d(0, -3.5, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
 	img.recipe-img {max-width: 85%;}
@@ -134,7 +134,7 @@ ul.nav-bar li.right {float: right;}
 		box-shadow: 0px -5px 5px 5px #00000096;
 	}
 	ul.nav-bar li a {border: none !important;}
-	nav.hidden {transform: translate3d(0, -3.1em, 0);}
+	nav.hidden {transform: translate3d(0, -3.5em, 0);}
 	#desktop-banner {width: 100%;}
 	#mobile-banner {display: none;}
 	img.recipe-img {max-width: 22em;}
