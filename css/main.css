@@ -14,7 +14,7 @@ ul.nav-bar {
 }
 
 nav {
-	position: fixed;
+	position: sticky;
 	width: 100%;
 	top: 0;
 	background-color: transparent;
