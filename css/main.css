@@ -27,6 +27,10 @@ nav.hidden {
 	transform: translate3d(0, -3.1em, 0);
 }
 
+nav.hidden ul.nav-bar {
+	box-shadow: none;
+}
+
 ul.nav-bar li {float: left;}
 
 ul.nav-bar li a {
