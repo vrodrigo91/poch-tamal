@@ -8,8 +8,10 @@ function myFunction() {
 }
 
 (function(){
+  var win = $(window);
+
   win.scroll(function(){
-    if ($(window).scrollTop() == 0) $('nav').removeClass('hidden');
+    if (win.scrollTop() == 0) $('nav').removeClass('hidden');
   });
 })();
 
