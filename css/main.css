@@ -273,13 +273,16 @@ a.order {
 }
 
 .follow-us-label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.1em;
     background: #91175c;
     padding: 2em;
     padding-top: 1em;
     padding-bottom: 1em;
     border-bottom-left-radius: 0.8em;
     border-bottom-right-radius: 0.8em;
-    box-shadow: 1px 1px 1px #1a1a1aa6;
+    box-shadow: 1px 1px 1px #1a1a1a8a;
 }
 
 .footer_02 {
