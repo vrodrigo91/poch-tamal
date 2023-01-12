@@ -61,7 +61,17 @@ ul.nav-bar li.right {float: right;}
 	ul.nav-bar li:not(:first-child) {display: none;}
 	ul.nav-bar.show-menu li {display: list-item;}
 	#hamburguesa {background: transparent; float: right; border: none;}
-	.top-item {display: flex; height: 3em;}
+	.top-item {
+		display: flex;
+		height: 3em;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.logo-var {
+		height: 2em;
+		margin-left: 5%;
+	}
 }
 
 @media only screen and (min-width: 600px) {
@@ -101,6 +111,10 @@ ul.nav-bar li.right {float: right;}
 	img.recipe-img.lft {margin-left: 0%;}
 	img.recipe-img.rgt {margin-right: 0%;}
 	#hamburguesa {display: none;}
+	.logo-var {
+		height: 2em;
+		margin-left: 10%;
+	}
 }
 
 /*@media screen and (max-width: 669px) {
@@ -154,6 +168,10 @@ ul.nav-bar li.right {float: right;}
 	img.recipe-img.lft {margin-left: 5%;}
 	img.recipe-img.rgt {margin-right: 5%;}
 	#hamburguesa {display: none;}
+	.logo-var {
+		height: 2em;
+		margin-left: 10%;
+	}
 }
 
 @media only screen and (min-width: 890px) {
