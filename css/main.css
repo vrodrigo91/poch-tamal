@@ -260,10 +260,24 @@ a.order {
 	color: #ce2b7d;
 }
 
-.footer {
-	height: 5em;
+.footer_01 {
+	font-family: 'Nunito', sans-serif;
+	height: 8em;
 	display: flex;
 	background: #dd287d;
+	color: #FFFFFF;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer_02 {
+	font-family: 'Nunito', sans-serif;
+	height: 5em;
+	display: flex;
+	background: #2e8b97;
+	color: #FFFFFF;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: center;
