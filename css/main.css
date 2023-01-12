@@ -67,7 +67,6 @@ ul.nav-bar li.right {float: right;}
 	ul.nav-bar.show-menu li {display: list-item;}
 	img.recipe-img {max-width: 70% !important; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
 	nav.hidden {transform: translate3d(0, -18em, 0);}
-	div.nav-bar-primer {display: none;}
 	#desktop-banner {display: none;}
 	#mobile-banner {width: 100%;}
 	#mobile-logo {
