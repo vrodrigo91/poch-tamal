@@ -11,6 +11,10 @@ div.nav-bar-primer {
 	height: 3.6em;    
 }
 
+#desktop-banner-bleed {
+    width: 100%;
+}
+
 nav {
 	background-color: transparent;
 	position: -webkit-sticky;
