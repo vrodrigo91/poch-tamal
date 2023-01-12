@@ -239,12 +239,13 @@ div.order-container {
 }
 
 img.order-button {
-	width: 6em;
-	padding-bottom: 0.8em;
-	padding-left: 0.6em;
-	padding-right: 0.6em;
-	margin-bottom: 0.3em;
-	border-bottom: 1px solid #dd277d;
+    width: 6em;
+    max-width: 96px;
+    padding-bottom: 0.8em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    margin-bottom: 0.3em;
+    border-bottom: 1px solid #dd277d;
 }
 
 a.order {
