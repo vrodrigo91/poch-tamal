@@ -284,7 +284,7 @@ a.order {
 
 	ul.nav-bar li a {
 		color: #dd297d;
-		background: #383838;   
+		background: transparent;   
 	}
 
 	@media screen and (max-width: 599px) {
