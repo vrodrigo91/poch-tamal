@@ -241,14 +241,15 @@ div.order-container {
 img.order-button {
     width: 6em;
     padding-bottom: 0.8em;
-    margin-bottom: 1em;
-    border-bottom: 1px solid #ce2b7d;
+    margin-bottom: 0.2em;
+    border-bottom: 1px solid #dd277d;
 }
 
 a.order {
-	font-family: 'Nunito', sans-serif;
-	text-decoration: none;
-	color: #ce2b7d;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: #ce2b7d;
 }
 
 .footer {
