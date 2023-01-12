@@ -9,7 +9,7 @@ nav {
 	position: sticky;
 	width: 100%;
 	top: 0;
-	transition: 0.6s;
+	transition: 0.5s;
 }
 
 nav.hidden ul.nav-bar {
@@ -22,7 +22,7 @@ ul.nav-bar {
 	padding: 0;
 	overflow: hidden;
 	background-color: #ffffff;
-	transition: 0.6s;
+	transition: 0.5s;
 }
 
 ul.nav-bar li {float: left;}
