@@ -94,6 +94,8 @@ ul.nav-bar li.right {float: right;}
 		height: 2em;
 		margin-left: 1em;
 	}
+	img.order-button {padding-left: 0.5em; padding-right: 0.5em;}
+	a.order {margin-left: 1.5em; margin-right: 1.5em;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -138,6 +140,8 @@ ul.nav-bar li.right {float: right;}
 		height: 2em;
 		margin-left: 10%;
 	}
+	img.order-button {padding-left: 0.6em; padding-right: 0.6em;}
+	a.order {margin-left: 2.9em; margin-right: 2.9em;}
 }
 
 @media only screen and (min-width: 670px) {
@@ -192,6 +196,8 @@ ul.nav-bar li.right {float: right;}
 		height: 2em;
 		margin-left: 10%;
 	}
+	img.order-button {padding-left: 0.6em; padding-right: 0.6em;}
+	a.order {margin-left: 2.9em; margin-right: 2.9em;}
 }
 
 @media only screen and (min-width: 890px) {
@@ -239,13 +245,11 @@ div.order-container {
 }
 
 img.order-button {
-    width: 6em;
-    max-width: 96px;
-    padding-bottom: 0.8em;
-    padding-left: 0.6em;
-    padding-right: 0.6em;
-    margin-bottom: 0.3em;
-    border-bottom: 1px solid #dd277d;
+	width: 6em;
+	max-width: 96px;
+	padding-bottom: 0.8em;
+	margin-bottom: 0.3em;
+	border-bottom: 1px solid #dd277d;
 }
 
 a.order {
@@ -255,8 +259,6 @@ a.order {
 	font-weight: 400;
 	font-size: 1.21em;
 	color: #ce2b7d;
-	margin-left: 2.9em;
-	margin-right: 2.9em;
 }
 
 .footer {
