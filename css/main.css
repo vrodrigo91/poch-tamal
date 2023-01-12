@@ -272,6 +272,16 @@ a.order {
     align-items: center;
 }
 
+.follow-us-label {
+    background: #91175c;
+    padding: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-bottom-left-radius: 0.8em;
+    border-bottom-right-radius: 0.8em;
+    box-shadow: 1px 1px 1px #1a1a1aa6;
+}
+
 .footer_02 {
 	font-family: 'Nunito', sans-serif;
 	height: 5em;
