@@ -1,3 +1,18 @@
+function myFunction() {
+  var x = document.getElementById("nv");
+  if (x.className === "nav-bar") {
+    x.className += " show-menu";
+  } else {
+    x.className = "nav-bar";
+  }
+}
+
+(function(){
+  win.scroll(function(){
+    if ($(window).scrollTop() == 0) $('nav').removeClass('hidden');
+  });
+})();
+
 (function(){
   var box = $(document),
   nav = $('nav'),
@@ -12,23 +27,3 @@
     posEnd = posStart;
   });
 })();
-
-(function(){
-  var win = $(window);
-
-  win.scroll(function(){
-    if (win.scrollTop() == 0) {
-      alert('scrolled to top');
-      $('nav').removeClass('hidden');
-    }
-  });
-})();
-
-function myFunction() {
-  var x = document.getElementById("nv");
-  if (x.className === "nav-bar") {
-    x.className += " show-menu";
-  } else {
-    x.className = "nav-bar";
-  }
-}
