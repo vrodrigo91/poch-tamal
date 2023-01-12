@@ -95,6 +95,11 @@ ul.nav-bar li.right {float: right;}
 		align-items: center;
 		justify-content: space-between;
 	}
+	.top-space {
+		display: flex !important;
+		height: 4em;
+		background: transparent;
+	}
 	.logo-var {
 		height: 2em;
 		margin-left: 1em;
