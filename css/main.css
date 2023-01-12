@@ -3,19 +3,10 @@ body {
 	margin: 0;
 }
 
-ul.nav-bar {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #ffffff;
-	transition: 0.6s;
-}
-
 nav {
 	background-color: transparent;
-	position: sticky;
 	position: -webkit-sticky;
+	position: sticky;
 	width: 100%;
 	top: 0;
 	transition: 0.6s;
@@ -23,6 +14,15 @@ nav {
 
 nav.hidden ul.nav-bar {
 	box-shadow: 0px 0px 0px 0px transparent;
+}
+
+ul.nav-bar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ffffff;
+	transition: 0.6s;
 }
 
 ul.nav-bar li {float: left;}
@@ -46,12 +46,13 @@ ul.nav-bar li.right {float: right;}
 }
 
 @media screen and (max-width: 599px) {
-	ul.nav-bar li.right,
-	ul.nav-bar li {float: none;}
 	div.bar-holder {width: 100%; background: transparent; height: 0; margin-left: 0; margin-top: 0;}
 	ul.nav-bar li {background: #ffffff;}
+	ul.nav-bar li.right, ul.nav-bar li {float: none;}
 	ul.nav-bar li a {border-bottom: 1px solid #eeeeee;}
 	ul.nav-bar li a:active {background-color: #f1f1f1;}
+		ul.nav-bar li:not(:first-child) {display: none;}
+	ul.nav-bar.show-menu li {display: list-item;}
 	img.recipe-img {max-width: 70% !important; padding: 0.2em; border: 2px solid #ed2750; border-radius: 4px; margin-top: 1em; margin-bottom: 1em;}
 	nav.hidden {transform: translate3d(0, -18em, 0);}
 	#desktop-banner {display: none;}
@@ -63,8 +64,6 @@ ul.nav-bar li.right {float: right;}
 	}
 	#order-mobile {display: block;}
 	#order-desktop {display: none;}
-	ul.nav-bar li:not(:first-child) {display: none;}
-	ul.nav-bar.show-menu li {display: list-item;}
 	#hamburguesa {
 		background: transparent;
 		float: right;
@@ -99,7 +98,8 @@ ul.nav-bar li.right {float: right;}
 	.col-s-12 {width: 100%;}
 	div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 	ul.nav-bar {
-		position: fixed;
+		position: -webkit-sticky;
+		position: sticky;
 		display: flex; 
 		flex-direction: row; 
 		flex-wrap: nowrap; 
@@ -127,10 +127,6 @@ ul.nav-bar li.right {float: right;}
 	}
 }
 
-/*@media screen and (max-width: 669px) {
-	img.recipe-img {max-width: 5em;}
-}*/
-
 @media only screen and (min-width: 670px) {
 	img.recipe-img {max-width: 85%;}
 }
@@ -156,7 +152,8 @@ ul.nav-bar li.right {float: right;}
 	.col-12 {width: 100%;}
 	div.bar-holder {width: 100%; background: transparent; height: 3em; margin-left: 0; margin-top: 0;}
 	ul.nav-bar {
-		position: fixed;
+		position: -webkit-sticky;
+		position: sticky;
 		display: flex; 
 		flex-direction: row; 
 		flex-wrap: nowrap; 
