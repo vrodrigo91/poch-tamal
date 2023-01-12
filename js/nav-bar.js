@@ -11,7 +11,7 @@ function myFunction() {
   var win = $(window);
 
   win.scroll(function(){
-    if (win.scrollTop() == 0) $('nav').removeClass('hidden');
+    /*if (win.scrollTop() == 0) $('nav').removeClass('hidden');*/
   });
 })();
 
