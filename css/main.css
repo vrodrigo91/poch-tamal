@@ -60,7 +60,11 @@ ul.nav-bar li.right {float: right;}
 
 @media screen and (max-width: 599px) {
 	div.bar-holder {width: 100%; background: transparent; height: 0; margin-left: 0; margin-top: 0;}
-	ul#nv {position: absolute; width: 100%;}
+	ul#nv {
+		position: absolute;
+		top: 0em;
+		width: 100%;
+	}
 	ul.nav-bar li {background: transparent;}
 	ul.nav-bar li.right, ul.nav-bar li {float: none;}
 	ul.nav-bar li a {border-bottom: 1px solid #eeeeee;}
@@ -72,7 +76,7 @@ ul.nav-bar li.right {float: right;}
 	#desktop-banner {display: none;}
 	#mobile-banner {width: 100%;}
 	#mobile-logo {
-		margin-top: 2em;
+		padding-top: 2em;
 		width: 100%;
 		text-align: center;
 	}
