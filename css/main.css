@@ -238,20 +238,17 @@ div.order-container {
 	justify-content: center;
 }
 
-a.uber-order {
-	background: black;
-	text-decoration: none;
-	color: white;
-	padding: 1em;
-	margin: 1em;
+img.order-button {
+    width: 6em;
+    padding-bottom: 0.8em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ce2b7d;
 }
 
-a.rappi-order {
-	background: #fa4420;
+a.order {
+	font-family: 'Nunito', sans-serif;
 	text-decoration: none;
-	color: #ffffff;
-	padding: 1em;
-	margin: 1em;
+	color: #ce2b7d;
 }
 
 .footer {
