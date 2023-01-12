@@ -241,9 +241,9 @@ div.order-container {
 img.order-button {
 	width: 6em;
 	padding-bottom: 0.8em;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	margin-bottom: 0.2em;
+	padding-left: 0.6em;
+	padding-right: 0.6em;
+	margin-bottom: 0.3em;
 	border-bottom: 1px solid #dd277d;
 }
 
@@ -254,8 +254,8 @@ a.order {
 	font-weight: 400;
 	font-size: 1.21em;
 	color: #ce2b7d;
-	margin-left: 3em;
-	margin-right: 3em;
+	margin-left: 2.9em;
+	margin-right: 2.9em;
 }
 
 .footer {
