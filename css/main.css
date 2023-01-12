@@ -261,15 +261,15 @@ a.order {
 }
 
 .footer_01 {
-	font-family: 'Nunito', sans-serif;
-	height: 8em;
-	display: flex;
-	background: #dd287d;
-	color: #FFFFFF;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
+    font-family: 'Nunito', sans-serif;
+    height: 8em;
+    display: flex;
+    background: #dd287d;
+    color: #FFFFFF;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer_02 {
