@@ -230,28 +230,32 @@ div.img-cell {
 }
 
 div.order-container {
-    margin-top: 3em;
-    margin-bottom: 1em;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+	margin-top: 3em;
+	margin-bottom: 1em;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 img.order-button {
-    width: 6em;
-    padding-bottom: 0.8em;
-    margin-bottom: 0.2em;
-    border-bottom: 1px solid #dd277d;
+	width: 6em;
+	padding-bottom: 0.8em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-bottom: 0.2em;
+	border-bottom: 1px solid #dd277d;
 }
 
 a.order {
-    font-family: 'Nunito', sans-serif;
-    text-decoration: none;
-    text-align: center;
-    color: #ce2b7d;
-    margin-left: 3.5em;
-    margin-right: 3.5em;
+	font-family: 'Nunito', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	font-weight: 400;
+	font-size: 1.21em;
+	color: #ce2b7d;
+	margin-left: 3em;
+	margin-right: 3em;
 }
 
 .footer {
