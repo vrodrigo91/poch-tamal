@@ -123,7 +123,7 @@ ul.nav-bar li.right {float: right;}
 	}
 	ul.nav-bar li a {border: none !important;}
 	nav.hidden {transform: translate3d(0, -3.6, 0);}
-	#desktop-banner {width: 100%;}
+	#desktop-banner {width: 100%; margin-top: -3.6em;}
 	#mobile-banner {display: none;}
 	#mobile-logo {display: none;}
 	#order-mobile {display: none;}
@@ -177,7 +177,7 @@ ul.nav-bar li.right {float: right;}
 	}
 	ul.nav-bar li a {border: none !important;}
 	nav.hidden {transform: translate3d(0, -3.6em, 0);}
-	#desktop-banner {width: 100%;}
+	#desktop-banner {width: 100%; margin-top: -3.6em;}
 	#mobile-banner {display: none;}
 	#mobile-logo {display: none;}
 	#order-mobile {display: none;}
