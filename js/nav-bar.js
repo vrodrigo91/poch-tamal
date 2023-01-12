@@ -4,12 +4,12 @@
   posEnd = 0;
 
   box.on('scroll', function(){
-      var posStart = $(this).scrollTop();
+    var posStart = $(this).scrollTop();
 
-      if (posStart > posEnd) nav.addClass('hidden');
-      else nav.removeClass('hidden');
+    if (posStart > posEnd) nav.addClass('hidden');
+    else nav.removeClass('hidden');
 
-      posEnd = posStart;
+    posEnd = posStart;
   });
 })();
 
@@ -17,8 +17,10 @@
   var win = $(window);
 
   win.scroll(function(){
-      if (win.scrollTop() == 0) alert('scrolled to top');
-      else if (win.height() + win.scrollTop() == $(document).height()) alert('scrolled to bottom');
+    if (win.scrollTop() == 0) {
+      alert('scrolled to top');
+      $('nav').removeClass('hidden');
+    }
   });
 })();
 
