@@ -13,6 +13,15 @@
   });
 })();
 
+(function(){
+  var win = $(window);
+
+  win.scroll(function(){
+      if (win.scrollTop() == 0) alert('scrolled to top');
+      else if (win.height() + win.scrollTop() == $(document).height()) alert('scrolled to bottom');
+  });
+})();
+
 function myFunction() {
   var x = document.getElementById("nv");
   if (x.className === "nav-bar") {
