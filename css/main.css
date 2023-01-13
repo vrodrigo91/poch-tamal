@@ -31,7 +31,7 @@ ul.nav-bar li {float: left;}
 
 ul.nav-bar li a {
 	display: block;
-	padding: 14px 16px;
+	padding: 18px 16px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	text-align: center;
@@ -61,6 +61,7 @@ ul.nav-bar li.right {float: right;}
 	ul.nav-bar li:not(:first-child) {display: none;}
 	ul.nav-bar.show-menu li {display: list-item;}
 	img.recipe-img {max-width: 70% !important; 1em; margin-bottom: 1em;}
+	ul.nav-bar.show-menu .top-item {border-bottom: 1px solid #4f4f4f;}
 	nav.hidden {transform: translate3d(0, -18em, 0);}
 	#desktop-banner {display: none;}
 	#mobile-banner {width: 100%;}
