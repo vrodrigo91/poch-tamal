@@ -61,7 +61,7 @@ ul.nav-bar li.right {float: right;}
 	ul.nav-bar li:not(:first-child) {display: none;}
 	ul.nav-bar.show-menu li {display: list-item;}
 	img.recipe-img {max-width: 70% !important; 1em; margin-bottom: 1em;}
-	ul.nav-bar.show-menu .top-item {border-bottom: 1px solid #4f4f4f;}
+	ul.nav-bar.show-menu .top-item {border-bottom: 1px solid #eeeeee;}
 	nav.hidden {transform: translate3d(0, -18em, 0);}
 	#desktop-banner {display: none;}
 	#mobile-banner {width: 100%;}
@@ -337,6 +337,7 @@ img.social-button {
 		ul.nav-bar li {background: transparent;}
 		ul.nav-bar li a {border-bottom: 1px solid #4f4f4f;}
 		ul.nav-bar li a:active {background-color: #2e2e2e;}
+		ul.nav-bar.show-menu .top-item {border-bottom: 1px solid #4f4f4f;}
 	}
 
 	@media only screen and (min-width: 600px) {
