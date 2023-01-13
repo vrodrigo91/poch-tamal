@@ -270,6 +270,7 @@ a.order {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 4em;
 }
 
 .footer_01-bottom {
