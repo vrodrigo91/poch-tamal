@@ -261,15 +261,14 @@ a.order {
 }
 
 .footer_01 {
-	font-family: 'Nunito', sans-serif;
-	height: 8em;
-	display: flex;
-	background: #dd287d;
-	color: #FFFFFF;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-items: center;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    background: #dd287d;
+    color: #FFFFFF;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer_01-bottom {
@@ -290,11 +289,16 @@ a.order {
 }
 
 .nuestras-redes {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5em;
+}
+
+img.social-button {
+    width: 10em;
 }
 
 .footer_02 {
