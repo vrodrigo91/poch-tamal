@@ -317,6 +317,7 @@ img.social-button {
 /* DARK MODE */
 @media (prefers-color-scheme: dark) {
 	body {
+		
 		background: #1c1c1c;
 		color: #f5955c;
 	}
