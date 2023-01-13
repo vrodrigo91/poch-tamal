@@ -12,9 +12,55 @@
 	<link rel="stylesheet" href="css/main.css">
 
 	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body {
+			background: #ffffff;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: center;
+			align-items: center;
+			padding-top: 5em;
+		}
+
+		.logo_404 {
+			width: 100%;
+		}
+
+		.label_404-a {
+			font-family: 'Nunito', sans-serif;
+			text-align: center;
+			font-weight: 400;
+			font-size: 5em;
+			color: #2e8b97;
+			margin-top: 1em;
+		}
+
+		.label_404-b {
+			font-family: 'Nunito', sans-serif;
+			text-align: center;
+			font-weight: 400;
+			font-size: 2em;
+			color: #f5955c;
+			margin-top: 1em;
+		}
+
+		@media (prefers-color-scheme: dark) {}
+		body {
+			background: #1c1c1c;
+		}
+	}
+
+
+</style>
 </head>
 <body>
-	<img id="mobile-banner" src="images/banner_movil.png"/>
+	<div class="page-container">
+		<img src="images/404-logo.svg" class="logo_404"/>
+		<div class="label_404-a">404</div>
+		<div class="label_404-b">Aquí no hay nada...</div>
+	</div>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/nav-bar.js"></script>
