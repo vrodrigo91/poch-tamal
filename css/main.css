@@ -206,6 +206,15 @@ ul.nav-bar li.right {float: right;}
 	img.recipe-img.rgt {margin-right: 22%;}
 }
 
+@media only screen and (min-width: 1345px) {
+	#desktop-banner {
+		width: 100%;
+		max-width: 84em;
+		margin-left: calc(50% - 42em);
+		margin-top: -3.6em;
+	}
+}
+
 .row::after {
 	content: "";
 	clear: both;
