@@ -31,7 +31,7 @@ ul.nav-bar li {float: left;}
 
 ul.nav-bar li a {
 	display: block;
-	padding: 18px 16px;
+	padding: 1.2em 16px;
 	font-family: 'Montserrat', sans-serif;
 	text-decoration: none;
 	text-align: center;
