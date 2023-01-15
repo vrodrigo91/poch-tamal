@@ -206,11 +206,11 @@ ul.nav-bar li.right {float: right;}
 	img.recipe-img.rgt {margin-right: 22%;}
 }
 
-@media only screen and (min-width: 76em) {
+@media only screen and (min-width: 80em) {
 	#desktop-banner {
 		width: 100%;
-		max-width: 76em;
-		margin-left: calc(50% - 38em);
+		max-width: 80em;
+		margin-left: calc(50% - 40em);
 		margin-top: -3.6em;
 	}
 }
