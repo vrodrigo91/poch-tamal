@@ -385,4 +385,10 @@ img.social-button {
 	.footer {
 		background: #dd287d;
 	}
+
+	a.mailto {
+		text-decoration: underline;
+		color: white;
+		margin-left: 0.5em;
+	}
 }
