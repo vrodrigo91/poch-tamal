@@ -313,16 +313,16 @@ img.social-button {
 }
 
 .footer_02 {
-	font-family: 'Nunito', sans-serif;
-	font-size: 0.9em;
-	height: 6em;
-	display: flex;
-	background: #2e8b97;
-	color: #FFFFFF;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.9em;
+    height: 6em;
+    display: flex;
+    background: #2e8b97;
+    color: #FFFFFF;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 /* DARK MODE */
